@@ -1,0 +1,640 @@
+/* importações */
+@import url("https://use.typekit.net/qnz3uuc.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* geral */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* body config */
+body {
+    background-color: #f5f5f5;
+}
+
+/* logo img */
+.img-logo {
+    width: auto;
+    height: 120px;
+    display: flex;
+    align-self: flex-start;
+}
+
+/* header config */
+header {
+    background-image: url(../img/banner-thaty.png);
+    display: flex;
+    width: 100%;
+    height: 700px;
+    padding: 0px 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-size: cover;
+}
+
+header p {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 25px;
+    color: #575D8C;
+    font-weight: 600;
+    width: 450px;
+    align-self: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* principais destaques */
+.container-atraction {
+    display: flex;
+    background-color: #1B2941;
+    width: 1000px;
+    border-radius: 30px;
+    height: 160px;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -10px;
+    padding: 0px 50px 0px 50px;
+}
+
+.container-itens {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.item-one {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.item-one span {
+    font-family: "muli", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    width: 225px;
+}
+
+.bi-chat-dots {
+    color: #ffffff;
+    font-size: 45px;
+    align-items: center;
+}
+
+.item-two {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.bi-linkedin {
+    color: #ffffff;
+    font-size: 45px;
+    align-items: center;
+}
+
+.item-two span {
+    font-family: "muli", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    width: 225px;
+}
+
+.item-three {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+.bi-person {
+    color: #ffffff;
+    font-size: 45px;
+    align-items: center;
+}
+
+.item-three span {
+    font-family: "muli", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    width: 200px;
+}
+
+/* resumo aprendizado curso */
+
+.line-division {
+    background-color: #575D8C;
+    height: 2px;
+    width: 100px;
+    border-radius: 3px;
+    margin-left: 110px;
+    margin-bottom: 25px;
+
+}
+
+.container-descricao-curso {
+    display: flex;
+    margin-top: 90px;
+    width: 1400px;
+    height: 350px;
+}
+
+.conatiner-descricao {
+  margin-left: 260px;
+}
+
+.text-descricao  {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 550px;
+    margin-left: 100px;
+}
+
+.logo-curso {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 50px;
+}
+
+.logo-curso img {
+    height: 400px;
+    margin-top: -60px;
+    
+}
+
+.text-descricao p {
+    font-family: "muli", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333;
+}
+
+.description-um {
+    font-family: "muli", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #333;
+}
+
+.description-dois {
+    font-family: "muli", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #333;
+}
+/* acesso descrição */
+
+.container-acesso-curso {
+    display: flex;
+}
+
+.acesso-curso-description {
+    margin: 0 auto
+}
+
+.acesso-curso-description img {
+    display: flex;
+    width: 1100px;
+    margin-top: -10px;
+}
+
+.button-acesso {
+    display: flex; 
+    justify-content: center;
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
+
+.button-acesso button {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #725AC1;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #725AC1;  
+}
+
+.button-acesso button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.button-acesso button:active {
+    transform: scale(0.9);
+}
+
+.button-acesso a {
+    text-decoration: none;
+}
+
+/* depoimentos */
+.depoimentos-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+.content-depoimentos h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.content-depoimentos h2 {
+    color: #1A0262;
+}
+
+.columns-depoimentos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 280px;
+    height: 350px;
+    text-align: center;
+    background: #ecf0ff;
+    box-shadow: 20px 20px 60px #E2E4FA,-20px -20px 60px #ffffff;
+    border-radius: 20px;
+    align-items: center;
+    border: 10px solid #725ac114;
+}
+
+.depoimentos p {
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: "muli", sans-serif;
+    padding: 20px;
+}
+
+.depoimentos img {
+    display: flex;
+    height: 120px
+}
+
+.depoimentos h3 {
+    color: #1A0262;
+}
+
+.depoimentos span {
+    color: #3333338e;
+    font-weight: 500;
+    font-family: "muli", sans-serif;
+}
+/* motivos */
+
+.content-motivos h2 {
+    display: flex;
+    color: #1A0262;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.content-motivos img {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+#button-2 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+/* quem deve participar ou não */
+.content-quem-participar img {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+}
+
+/* bonus */
+
+.bonus {
+    display: flex;
+    margin-top: 90px;
+    width: 1400px;
+    height: 350px;
+    justify-content: center;
+    margin-left: 180px;
+    
+}
+
+
+.content-bonus h2 {
+    color: #1A0262;
+    font-weight: 900;
+    width: 150px;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.content-bonus p {
+    color: #333;
+    width: 500px;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.content-bonus {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 550px;
+}
+
+.arco-objetivo {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.arco-objetivo img {
+    height: 550px;
+    margin-top: -60px;
+    margin-left: 250px;
+}
+
+/* Valor */
+.valor {
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.content-valor  h2 {
+    color: #1A0262;
+    text-transform: uppercase;
+    width: 550px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.text-diferent {
+    color: red;
+    text-decoration: line-through #1A0262;
+}
+
+/* card valor */
+
+.valor-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 400px;
+    margin-top: 80px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    background-color: #ecf0ff;
+    border: 10px solid #725ac114;
+    box-shadow: 20px 20px 60px #bebebe,-20px -20px 60px #ffffff;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.valor-card h3 {
+    width: 270px;
+    font-size: 16px;
+    margin-top: 30px;
+    color: #1B2941;
+}
+
+.valor-card span {
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+    margin-right: 170px;
+    font-family: "muli", sans-serif;
+    color: #333;
+    font-size: 19px;
+    font-weight: 650;
+}
+
+#marg-top {
+    margin-top: 40px;
+}
+
+.valor-card p {
+    font-size: 75px;
+    font-weight: 700;
+    margin-left: 80px;
+    margin-top: -70px;
+}
+
+#span-diferente {
+    margin: 0 auto;
+    color: #333;
+    font-weight: 650;
+    font-size: 17px;
+    margin-top: 3px;
+}
+
+.valor-card button {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #725AC1;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+.valor-card button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.valor-card button:active {
+    transform: scale(0.9);
+}
+
+.valor-cards {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.valor-cards img {
+    height: 470px;
+    margin-top: -60px;
+    margin-left: 450px;
+}
+
+#preco {
+    margin-right: 320px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+/* garantia */
+
+.content-garantia {
+    background-color: #565AA6;
+    margin-top: 55px;
+}
+
+.content-garantia img {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* quem sou eu */
+.quemsou {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.quemsou img {
+    height: 650px;
+    margin-top: -10px;
+    margin-right: 100px;
+}
+
+.content-quemsou h2 {
+    color: #333;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content-quemsou span {
+    color: #1A0262;
+}
+
+.content-quemsou p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: "muli", sans-serif;
+    line-height: 25px;
+    color: #333;
+    font-weight: bold;
+} 
+
+/* botão topo */
+
+.button-fixo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    height: 75px;
+}
+
+.button-fixo::after {
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+
+.button-fixo:hover::after {
+    margin-top:-8px;
+}
+
+.content-buttonfixo img {
+    border: none;
+    height: 110px;
+    transition: 0.5s;
+}
+
+.content-buttonfixo img:hover {
+    height: 140px;
+}
+
+/* rodapé */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #565AA6;
+    width: auto;
+    height: 150px;
+    
+}
+
+footer img {
+    height: auto;
+    width: 220px;
+    margin-bottom: -20px;
+    margin-top: -25px;
+}
+
+footer p {
+    color: #ffffffb0;
+}
